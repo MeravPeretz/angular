@@ -1,0 +1,16 @@
+<div>
+    <h2 style='font-weight:bold'>{{curseData?.name}}</h2>
+    <div *ngStyle="{'color': (curseData?.numOfHours ?? 0) < 30 ? (curseData?.numOfHours ?? 0) < 60  ?'green' :  'orange' :'red'}">{{"מספר שעות:"+curseData?.numOfHours}}</div>
+    <div *ngSwitch="curseData?.type">
+        <p *ngSwitchCase="getTypes().frontal">{{" שם המרצה:"+curseData?.teacher}}</p>
+        <p *ngSwitchCase="getTypes().computerized">{{"תוכנות נדרשות:"+curseData?.software}}</p>
+        <div *ngSwitchCase="getTypes().laboratory">
+            <p>{{" שם המרצה:"+curseData?.teacher}}</p>
+            <p>{{"תוכנות נדרשות:"+curseData?.software}}</p>
+        </div>
+    </div>
+
+    <button *ngIf="(curseData?.startDate ?? null) > getTodayDate()&&!isRegister" (click)="updateRegister()">רישום</button>
+    <button *ngIf="isRegister" (click)="updateRegister()">ביטול רישום</button>
+
+</div>
