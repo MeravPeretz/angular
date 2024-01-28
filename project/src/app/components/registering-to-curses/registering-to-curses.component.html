@@ -1,9 +1,9 @@
 <div *ngFor="let c of curses let i = index">
-    <app-curse [curseData]=c [isRegister]=false (Register)="updateRegister($event)"></app-curse>
+    <app-curse [curseData]=c [isRegister]=reg[i].r (Register)="updateRegister($event)"></app-curse>
 </div>
+<p> קורסים שנרשמת אליהם:
+</p>
 <div *ngFor="let c of register let i = index">
-    קורסים שנרשמת אליהם:
-    <app-curse [curseData]=c></app-curse>
+    <p>{{c.name}}</p>
 </div>
-<button (click)="cancelRegister()">בטל הכל</button>
-
+<button (click)=" cancelRegister() ">בטל הכל</button>

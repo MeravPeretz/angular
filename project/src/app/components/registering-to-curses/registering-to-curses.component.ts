@@ -16,10 +16,18 @@ export class RegisteringToCursesComponent {
       teacher:'rut lev',
       software:'angular,nodejs',
       startDate:new Date("10/12/2024")
+    },
+    {
+      name:'java',
+      numOfHours:30,
+      type:Type.computerized,
+      teacher:'rut lev',
+      software:'angular,nodejs',
+      startDate:new Date("10/12/2024")
     }
   ]  
   register:Curse[]=[]
-
+  reg:any[] = [{r:false}, {r:false}]
 updateRegister($event:any){
   if($event.isRegister)
     this.register.push($event.curse)
