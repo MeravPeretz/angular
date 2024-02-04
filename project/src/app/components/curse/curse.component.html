@@ -11,6 +11,6 @@
     </div>
 
     <button *ngIf="curseData?.startDate! > getTodayDate() && !isRegister" (click)="updateRegister()">רישום</button>
-    <button *ngIf="isRegister" (click)="updateRegister()">ביטול רישום</button>
+    <button *ngIf="isRegister" (click)=updateRegister()>ביטול רישום</button>
 
 </div>

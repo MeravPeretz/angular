@@ -27,14 +27,17 @@ export class RegisteringToCursesComponent {
     }
   ]  
   register:Curse[]=[]
-  reg:any[] = [{r:false}, {r:false}]
+  reg:any[] = [{r:true}, {r:false}]
 updateRegister($event:any){
-  if($event.isRegister)
-    this.register.push($event.curse)
-  else
-    this.register=this.register.filter(c=>c!==$event.curse)
+  if($event.isRegister){
+    this.register.push($event.curse.name)
+  }
+  else{
+    this.register=this.register.filter(c=>c!==$event.curse.name)
+  }
 }
 cancelRegister(){
   this.register=[]
+  this.reg=this.reg.map(n=>n={r:false})
 }
 }

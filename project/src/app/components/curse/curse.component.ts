@@ -1,6 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Curse } from '../../models/curse';
 import { Type } from '../../models/enums';
+import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-curse',
@@ -11,7 +12,6 @@ export class CurseComponent {
   @Input() curseData:Curse | null = null
   @Input() isRegister:boolean =false
   @Output() Register = new EventEmitter<any>()
-
   getTypes(){
     return Type
   }
