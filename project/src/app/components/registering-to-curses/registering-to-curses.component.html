@@ -1,9 +1,12 @@
-<div *ngFor="let c of curses let i = index">
-    <app-curse [curseData]=c [isRegister]=reg[i].r (Register)="updateRegister($event)"></app-curse>
+<div *ngIf="!user"><app-login (enterSucced)="updateUser()"></app-login></div>
+<div *ngIf="user">
+    <div *ngFor="let c of curses let i = index">
+        <app-curse [curseData]=c [isRegister]=reg[i].r (Register)="updateRegister($event)"></app-curse>
+    </div>
+    <p> קורסים שנרשמת אליהם:</p>
+    <div *ngFor="let n of register">
+        <p>{{n}}</p>
+    </div>
+    <button (click)=" cancelRegister() ">בטל הכל</button>
+    <app-add-curse (saved)="addCurse($event)"></app-add-curse>
 </div>
-<p> קורסים שנרשמת אליהם:
-</p>
-<div *ngFor="let n of register">
-    <p>{{n}}</p>
-</div>
-<button (click)=" cancelRegister() ">בטל הכל</button>

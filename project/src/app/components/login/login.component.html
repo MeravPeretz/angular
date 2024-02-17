@@ -1,0 +1,5 @@
+<form #f="ngForm" ngForm >
+    <input type="text" placeholder="name"name="loginName" required >
+    <input type="password" placeholder="password" name="loginPassword" required >
+    <button type="submit"  [disabled]="!f.form.valid" (click)="enter()">enter</button>
+</form>

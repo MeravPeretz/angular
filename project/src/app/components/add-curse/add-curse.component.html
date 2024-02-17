@@ -1,0 +1,36 @@
+<h3>הזן את פרטי הקורס להוספה</h3>
+<form [formGroup]="f!">
+    <div>
+        <label>שם קורס</label>
+        <input type="text" formControlName="name" [(ngModel)]="newCurse.name">
+    </div>
+    <div>
+        <label>מספר שעות</label>
+        <input type="number" formControlName="numOfHours" [(ngModel)]="newCurse.numOfHours">
+    </div>
+    <div>
+        <label>בחר אופן מסירת הקורס</label>
+        <select  formControlName="type"[(ngModel)]="newCurse.type " >
+            <option *ngFor="let value of typeValues()" [value]="types()[value]">{{ value }}</option>
+        </select >
+    </div>
+    <div>
+        <label> מורה</label>
+        <input type="text" formControlName="teacher" [(ngModel)]="newCurse.teacher">
+    </div>
+    <div>
+        <label>software</label>
+        <input type="text" formControlName="software" [(ngModel)]="newCurse.software"> 
+    </div>
+    <div>
+        <label>תאריך תחילת הקורס</label>
+        <input type="date" formControlName="startDate" [(ngModel)]="newCurse.startDate">
+    </div>
+    <button (click)="save()">שמירה</button>
+</form>
+<!--     name:string
+    numOfHours:number
+    type:Type
+    teacher:string
+    software:string
+    startDate:Date -->

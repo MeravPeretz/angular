@@ -8,8 +8,10 @@ import { Type } from '../../models/enums';
   styleUrl: './registering-to-curses.component.scss'
 })
 export class RegisteringToCursesComponent {
+  user:boolean=false
   curses:Curse[]=[
     {
+      id:1,
       name:'angular',
       numOfHours:30,
       type:Type.frontal,
@@ -18,6 +20,7 @@ export class RegisteringToCursesComponent {
       startDate:new Date("10/12/2024")
     },
     {
+      id:2,
       name:'java',
       numOfHours:30,
       type:Type.computerized,
@@ -38,6 +41,13 @@ updateRegister($event:any){
 }
 cancelRegister(){
   this.register=[]
-  this.reg=this.reg.map(n=>n={r:false})
+  this.reg =this.reg.map(n=>n={r:false})
 }
+updateUser(){
+  this.user=true;
+}
+addCurse($event:Curse){
+  this.curses.push($event)
+  this.reg.push({r:false})
+   }
 }
