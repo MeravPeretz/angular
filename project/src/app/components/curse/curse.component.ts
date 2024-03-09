@@ -9,6 +9,7 @@ import { NgModel } from '@angular/forms';
   styleUrl: './curse.component.scss'
 })
 export class CurseComponent {
+
   @Input() curseData:Curse | null = null
   @Input() isRegister:boolean =false
   @Output() Register = new EventEmitter<any>()

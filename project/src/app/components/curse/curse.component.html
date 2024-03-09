@@ -1,4 +1,4 @@
-<div>
+<div >
     <h2 style='font-weight:bold'>{{curseData?.name}}</h2>
     <div [ngStyle]="{'color': (curseData?.numOfHours ?? 0) < 30 ? (curseData?.numOfHours ?? 0) < 60  ?'green' :  'orange' :'red'}">{{"מספר שעות:"+curseData?.numOfHours}}</div>
     <div [ngSwitch]="curseData?.type">

@@ -8,6 +8,11 @@ import { RegisteringToCursesComponent } from './components/registering-to-curses
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AddCurseComponent } from './components/add-curse/add-curse.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AboutComponent } from './components/about/about.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { CourseEditingComponent } from './components/course-editing/course-editing.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,13 +20,18 @@ import { AddCurseComponent } from './components/add-curse/add-curse.component';
     CurseComponent,
     RegisteringToCursesComponent,
     LoginComponent,
-    AddCurseComponent
+    AddCurseComponent,
+    AboutComponent,
+    ContactUsComponent,
+    CourseEditingComponent,
+    NotFoundComponent
   ],
   imports: [
     FormsModule,
     ReactiveFormsModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

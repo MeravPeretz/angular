@@ -1,34 +1,28 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Curse } from '../../models/curse';
 import { Type } from '../../models/enums';
+import { CurseService } from '../../services/curse.service';
+import { ActivatedRoute, Router } from '@angular/router';
+import { UserService } from '../../services/user.service';
 
 @Component({
   selector: 'app-registering-to-curses',
   templateUrl: './registering-to-curses.component.html',
   styleUrl: './registering-to-curses.component.scss'
 })
-export class RegisteringToCursesComponent {
-  user:boolean=false
-  curses:Curse[]=[
-    {
-      id:1,
-      name:'angular',
-      numOfHours:30,
-      type:Type.frontal,
-      teacher:'rut lev',
-      software:'angular,nodejs',
-      startDate:new Date("10/12/2024")
-    },
-    {
-      id:2,
-      name:'java',
-      numOfHours:30,
-      type:Type.computerized,
-      teacher:'rut lev',
-      software:'angular,nodejs',
-      startDate:new Date("10/12/2024")
-    }
-  ]  
+export class RegisteringToCursesComponent implements OnInit {
+  user:boolean=UserService.user;
+  constructor(private curseSvc:CurseService,
+    private router:Router, private active:ActivatedRoute){
+  }
+
+  ngOnInit(): void {
+    this.curses=this.curseSvc.curseList.map(c=>c);
+
+  }
+  curses:Curse[]|null=null;
+ // user:boolean=false
+  
   register:Curse[]=[]
   reg:any[] = [{r:true}, {r:false}]
 updateRegister($event:any){
@@ -43,11 +37,15 @@ cancelRegister(){
   this.register=[]
   this.reg =this.reg.map(n=>n={r:false})
 }
-updateUser(){
-  this.user=true;
-}
-addCurse($event:Curse){
-  this.curses.push($event)
-  this.reg.push({r:false})
+// updateUser(){
+//   this.user=true;
+// }
+updateCurse($event:Curse){
+  this.curses?.forEach((element:Curse) => {  
+  element.id==$event.id?$event:element});
+  this.curses=this.curseSvc.curseList;
    }
+   edit(id:number){
+    this.router.navigate([id], {relativeTo:this.active})
+  }
 }

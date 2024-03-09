@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { UserService } from './services/user.service';
+import { ActivatedRoute ,Router} from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  constructor(private router:Router,
+    private active:ActivatedRoute){
+    if(!UserService.user)
+    this.router.navigate(['login'], {relativeTo:this.active})
+
+  }
+
 }

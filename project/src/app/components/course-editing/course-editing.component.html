@@ -1,0 +1,33 @@
+
+<div *ngIf="curseToUpdate&&user">
+    <h3>ערוך קורס!</h3>
+<form [formGroup]="f!">
+    <div>
+        <label>שם קורס</label>
+        <input type="text" formControlName="name" [(ngModel)]="curseToUpdate.name" value="curseToUpdate.name">
+    </div>
+    <div>
+        <label>מספר שעות</label>
+        <input type="number" formControlName="numOfHours" [(ngModel)]="curseToUpdate.numOfHours" value="curseToUpdate.numOfHours">
+    </div>
+    <div>
+        <label> אופן מסירת הקורס</label>
+        <select  formControlName="type"[(ngModel)]="curseToUpdate.type " value="curseToUpdate.type">
+            <option *ngFor="let value of typeValues()" [value]="types()[value]">{{ value }}</option>
+        </select >
+    </div>
+    <div>
+        <label> מורה</label>
+        <input type="text" formControlName="teacher" [(ngModel)]="curseToUpdate.teacher" value="curseToUpdate.teacher">
+    </div>
+    <div>
+        <label>software</label>
+        <input type="text" formControlName="software" [(ngModel)]="curseToUpdate.software" value="curseToUpdate.software"> 
+    </div>
+    <div>
+        <label>תאריך תחילת הקורס</label>
+        <input type="date" formControlName="startDate" [(ngModel)]="curseToUpdate.startDate" value="curseToUpdate.startDate">
+    </div>
+    <button (click)="save()">שמירה</button>
+</form>
+</div>

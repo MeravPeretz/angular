@@ -22,11 +22,9 @@ export class AddCurseComponent {
       startDate:new FormControl()
     })
   save(){
-    debugger;
     if(this.f.valid){
       this.saved.emit(this.newCurse);
       this.newCurse=({id:0,name:"",numOfHours:0,type:Type.frontal,teacher:"",software:"",startDate:new Date()});
-
     }
   }
   types (){return Type;} 
