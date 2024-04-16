@@ -1,0 +1,105 @@
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.AssemblyInfo.cs
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\Data\Jobs.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\Data\Users.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.exe
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.deps.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.runtimeconfig.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.pdb
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.JobSiteServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\JobSiteServer.styles.css
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.CopyComplete
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.pdb
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.genruntimeconfig.cache
+C:\Users\USER\Desktop\לימודים יד\angular\sever\costumeRent-Server\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\Data\Jobs.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\Data\Users.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.exe
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.deps.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.runtimeconfig.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\JobSiteServer.pdb
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.AssemblyInfo.cs
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.JobSiteServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\JobSiteServer.styles.css
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.CopyComplete
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.pdb
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\JobSiteServer.genruntimeconfig.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Data\Jobs.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Data\Users.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\JobSiteServer.exe
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\JobSiteServer.deps.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\JobSiteServer.runtimeconfig.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\JobSiteServer.pdb
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.AssemblyInfo.cs
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.JobSiteServer.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.build.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.JobSiteServer.props
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\JobSiteServer.styles.css
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.csproj.CopyComplete
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\refint\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.pdb
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.genruntimeconfig.cache
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\ref\JobSiteServer.dll

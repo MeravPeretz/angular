@@ -1,0 +1,15 @@
+<form #f="ngForm" (ngSubmit)="login()">
+    <div>
+        <label>name</label>
+        <input type="text" name="name" required ngModel class="form-control">
+    </div>
+   <span class="error" *ngIf="f.submitted && f.controls['name']?.invalid">name is required</span>
+    <div>
+        <label>password</label>
+        <input type="text" name="password" required ngModel >
+    </div>
+    <span class="error" *ngIf="f.submitted && f.controls['password']?.invalid">password is required</span>
+    <button type="submit">submit</button>
+</form>
+<!-- <pre>{{f.value | json}}</pre> -->
+

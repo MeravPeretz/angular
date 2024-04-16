@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aWJ3n+c+wWYSxSxpm07DLJGwBOFv+oLtKUEw3z6Fdd4=",
+  "Source": "JobSiteServer",
+  "BasePath": "_content/JobSiteServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

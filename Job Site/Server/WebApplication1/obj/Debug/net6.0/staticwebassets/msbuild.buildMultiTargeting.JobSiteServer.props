@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JobSiteServer.props" />
+</Project>

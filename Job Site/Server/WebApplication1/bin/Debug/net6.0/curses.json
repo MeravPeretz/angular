@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "angular",
+    "numOfHours": 30,
+    "type": "Type.frontal",
+    "teacher": "rut lev",
+    "software": "angular,nodejs",
+    "startDate": "10/12/2024"
+  },
+  {
+    "id": 2,
+    "name": "java",
+    "numOfHours": 30,
+    "type": "Type.computerized",
+    "teacher": "rut lev",
+    "software": "angular,nodejs",
+    "startDate":"10/12/2024"
+  }
+]

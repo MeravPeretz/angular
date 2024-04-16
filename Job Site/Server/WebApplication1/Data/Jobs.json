@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": 1,
+    "JobField": "FullStack",
+    "name": "ראש צוות לפרויקט רפואי",
+    "hoursPerMonth": 160,
+    "area": "תל אביב",
+    "reguests": "6 שנות נסיון חובה",
+    "workingFromHome": true
+  },
+  {
+    "id": 2,
+    "JobField": "QI",
+    "name": "משרה למפתחת תוכנה מתחילה ",
+    "hoursPerMonth": 180,
+    "area": "הרצליה",
+    "reguests": "ידע בפייתון מתקדם,c# ואנגולר",
+    "workingFromHome": true
+  }
+]

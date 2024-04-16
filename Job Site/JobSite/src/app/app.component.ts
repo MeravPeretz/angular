@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { UserService } from './services/user.service';
 import { ActivatedRoute ,Router} from '@angular/router';
+import { UserService } from './services/user.service';
+
 
 @Component({
   selector: 'app-root',
@@ -8,11 +9,11 @@ import { ActivatedRoute ,Router} from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'project';
+  title = 'JobSite';
   constructor(private router:Router,
-    private active:ActivatedRoute){
-    if(!UserService.user)
+    private active:ActivatedRoute,private userSVC:UserService){
+      debugger;
+    if(this.userSVC.user==undefined)
     this.router.navigate(['login'], {relativeTo:this.active})
   }
-
 }

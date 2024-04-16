@@ -1,0 +1,14 @@
+﻿[
+  {
+    "id": 1,
+    "name": "שרה",
+    "password": "שרה123",
+    "JobSearchField": "FullStack"
+  },
+  {
+    "id": 2,
+    "name": "רות",
+    "password": "12345678",
+    "JobSearchField": "AI"
+  }
+]
