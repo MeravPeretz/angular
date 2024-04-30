@@ -1,0 +1,28 @@
+header, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+}
+
+header {
+    background-color: #ff7e67;
+}
+
+footer {
+    background-color: #13b2b8;
+    flex-direction: row-reverse;
+
+}
+
+header span, footer h4 {
+    font-size: 20px;
+}
+
+header span, footer h5 {
+    font-size: 16px;
+}

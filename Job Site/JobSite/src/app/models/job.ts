@@ -4,7 +4,7 @@ export interface Job{
     id:number,
     name:string, 
     jobField :JobField,  
-    Hours:number, 
+    hours:number, 
     area:string,
     requests:string,
     workingFromHome:boolean

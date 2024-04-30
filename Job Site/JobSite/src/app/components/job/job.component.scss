@@ -1,0 +1,38 @@
+.job {
+    border-radius: 15px;
+    border: 3px solid #13b2b8;
+    background-color: #62e6e8;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+}
+
+.job h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+.job h4 {
+    color: #555;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.job button {
+    background-color: #ff7e67;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.job button:hover {
+    background-color: #ec533f;
+}

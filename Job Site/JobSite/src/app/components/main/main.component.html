@@ -1,13 +1,15 @@
 <header>
     <span>{{user?.name}}</span> |  
-    <span>{{user?.jobField}}</span> | 
-    <span>{{user_cv}}</span> | 
+    <span>{{getJobSearchField()}}</span> | 
+    <span>cv: {{user_cv}}</span> | 
     <span>icon</span>
 </header>
  <router-outlet></router-outlet>
 <footer>
-    <h5>connect to us</h5>
-    <h6>telephon: 08-9857845</h6>
-    <h6>{{"email: jobs@gmail.com"}}</h6>
-    <h6>adress: haprachim 26, Tel-Aviv</h6>
+    <h4>תקשרו איתנו</h4>
+    <h5>בטלפון: 08-9857845</h5>
+    <h5>{{"email: jobs@gmail.com"}} :במייל</h5>
+    <h5>כתובתינו: הפרחים 26 תל אביב</h5>
 </footer>
+<!-- <pre>{{user | json}}</pre> -->
+

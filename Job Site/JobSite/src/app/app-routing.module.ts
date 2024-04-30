@@ -7,11 +7,12 @@ import { JobComponent } from './components/job/job.component';
 import { WrongPathComponent } from './components/wrong-path/wrong-path.component';
 
 const routes: Routes = [
-  {path:'',component:MainComponent},
+  {path:'',component:MainComponent,children:[
+    {path: 'jobs', component:SearchJobComponent},
+    {path: 'jobs/:job', component:JobComponent},
+  ]},
   {path: 'login', component:LoginComponent},
-  {path: 'jobs', component:SearchJobComponent,},
-  {path: 'jobs/:job', component:JobComponent},
-  {path: '**', component:WrongPathComponent},
+  {path: '**', component:WrongPathComponent}
 ];
 
 

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { User } from '../models/user';
 import {HttpClient} from '@angular/common/http';
+import { resolve } from 'path';
 
 
 @Injectable({
@@ -14,7 +15,18 @@ export class UserService {
       this.http.get(`https://localhost:44337/api/User/GetUser?name=${name}&password=${password}`).subscribe((res: any) => {
         this.user = res;
         resolve(this.user);
+        localStorage.setItem("user",JSON.stringify(this.user));
       });
     });
   }
+  async getUser(){
+    return new Promise((resolve, reject) => {
+      const stringUser = localStorage.getItem("user");
+      if (stringUser !== null) {
+        this.user = JSON.parse(stringUser);
+      resolve(this.user);
+    };
+  });
+}
+  
 }

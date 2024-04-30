@@ -13,7 +13,8 @@ export class AppComponent {
   constructor(private router:Router,
     private active:ActivatedRoute,private userSVC:UserService){
       debugger;
-    if(this.userSVC.user==undefined)
-    this.router.navigate(['login'], {relativeTo:this.active})
+    this.userSVC.getUser();
+    if(!this.userSVC.user)
+      this.router.navigate(['login'], {relativeTo:this.active})
   }
 }
