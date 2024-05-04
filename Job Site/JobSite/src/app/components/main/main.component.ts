@@ -18,4 +18,7 @@ export class MainComponent {
       return JobField[this.user.jobSearchField];
     return " ";
   }
+  getJobsUrl(){
+    return "jobs/"+this.user?.jobSearchField;
+  }
 }

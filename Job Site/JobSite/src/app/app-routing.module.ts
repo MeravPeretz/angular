@@ -5,11 +5,14 @@ import { MainComponent } from './components/main/main.component';
 import { SearchJobComponent } from './components/search-job/search-job.component';
 import { JobComponent } from './components/job/job.component';
 import { WrongPathComponent } from './components/wrong-path/wrong-path.component';
+import { JobDetailsComponent } from './components/job-details/job-details.component';
 
 const routes: Routes = [
   {path:'',component:MainComponent,children:[
+    {path: 'jobs/:jobField/:area', component:SearchJobComponent},
+    {path: 'jobs/:jobField', component:SearchJobComponent},
     {path: 'jobs', component:SearchJobComponent},
-    {path: 'jobs/:job', component:JobComponent},
+    {path: 'job/:id', component:JobDetailsComponent},
   ]},
   {path: 'login', component:LoginComponent},
   {path: '**', component:WrongPathComponent}

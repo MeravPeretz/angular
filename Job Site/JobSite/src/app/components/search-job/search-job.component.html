@@ -1,3 +1,4 @@
+<app-jobs-filter (filterChange)="filter($event)"></app-jobs-filter>
 <div  *ngFor="let j of jobs" class="jobs">
     <app-job  [job]=j></app-job>
 </div>

@@ -1,0 +1,11 @@
+<div class="main">
+    <div class="job" *ngIf="job">
+        <h1>{{job.name}}</h1>
+        <div>{{getField()}}</div>
+        <div>{{job.hours}} שעות</div>
+        <div>{{job.area}}</div>
+        <div>{{job.requests}} דרישות</div>
+        <div>{{job.workingFromHome?"עבודה מהבית":"ללא עבודה מהבית"}}</div>
+    </div>
+</div>
+ 

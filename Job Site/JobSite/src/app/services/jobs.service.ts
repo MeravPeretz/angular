@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Job } from '../models/job';
 import { HttpClient } from '@angular/common/http';
+import { JobField } from '../models/jobField';
 
 @Injectable({
   providedIn: 'root'
@@ -19,5 +20,11 @@ export class JobsService {
   }
   getJob( id:number){
     return this.jobs?.find(j=>j.id=id);
+  }
+  filteredJobs: Job[] |undefined;
+  filterJobs(jobField:string,area:string){
+    debugger;
+    this.filteredJobs= (area!=""&&area!=undefined)? this.jobs?.filter(j=>area==j.area):this.jobs;
+    return jobField!=""?this.filteredJobs?.filter(j=>j.jobField==+jobField):this.filteredJobs;
   }
 }

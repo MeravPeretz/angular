@@ -15,7 +15,7 @@ export class LoginComponent {
   public async login(){
     if(this.form.status=="VALID"){
       if(await this.userSVC.login(this.form.value.name, this.form.value.password))
-        this.router.navigate(['jobs']);
+        this.router.navigate(['jobs',{jobField:this.userSVC.user?.jobSearchField}]);
       else
         alert("user not found, try again!");
     }

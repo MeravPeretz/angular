@@ -1,0 +1,12 @@
+<form ngForm>
+    <label>תחום</label>
+    <select [(ngModel)]="jobField" name="jobField">
+        <option>QI</option>
+    </select>
+    <label>אזור</label>
+    <select [(ngModel)]="area" name="area">
+        <option>הרצליה</option>
+    </select>
+    <!-- <input type="number" [(ngModel)]="tillPrice" name="tillPrice"> -->
+    <button type="submit" (click)="filter()">חפש</button>
+</form>

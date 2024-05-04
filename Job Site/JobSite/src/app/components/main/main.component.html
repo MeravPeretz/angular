@@ -1,8 +1,8 @@
 <header>
     <span>{{user?.name}}</span> |  
-    <span>{{getJobSearchField()}}</span> | 
+    <a [routerLink]="getJobsUrl()">{{getJobSearchField()}}</a> | 
     <span>cv: {{user_cv}}</span> | 
-    <span>icon</span>
+    <a [routerLink]="'login'">icon</a>
 </header>
  <router-outlet></router-outlet>
 <footer>

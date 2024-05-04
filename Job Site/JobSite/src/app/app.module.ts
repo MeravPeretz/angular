@@ -10,6 +10,8 @@ import { JobComponent } from './components/job/job.component';
 import { WrongPathComponent } from './components/wrong-path/wrong-path.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { JobsFilterComponent } from './components/jobs-filter/jobs-filter.component';
+import { JobDetailsComponent } from './components/job-details/job-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     MainComponent,
     SearchJobComponent,
     JobComponent,
-    WrongPathComponent
+    WrongPathComponent,
+    JobsFilterComponent,
+    JobDetailsComponent
   ],
   imports: [
     FormsModule,
