@@ -1,4 +1,6 @@
 <app-jobs-filter (filterChange)="filter($event)"></app-jobs-filter>
 <div  *ngFor="let j of jobs" class="jobs">
-    <app-job  [job]=j></app-job>
+    <app-job  [job]=j (sendCV)="sendCV($event)"></app-job>
 </div>
+<div>קורות החיים שנשלחו:</div>
+<div  *ngFor="let j of cv">{{[j]}}</div>

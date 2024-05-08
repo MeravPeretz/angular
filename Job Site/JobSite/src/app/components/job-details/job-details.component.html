@@ -1,7 +1,7 @@
 <div class="main">
     <div class="job" *ngIf="job">
         <h1>{{job.name}}</h1>
-        <div>{{getField()}}</div>
+        <div>{{job.jobField|jobField}}</div>
         <div>{{job.hours}} שעות</div>
         <div>{{job.area}}</div>
         <div>{{job.requests}} דרישות</div>

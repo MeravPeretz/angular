@@ -22,9 +22,9 @@ export class JobsService {
     return this.jobs?.find(j=>j.id=id);
   }
   filteredJobs: Job[] |undefined;
-  filterJobs(jobField:string,area:string){
+  filterJobs(jobs:Job[]|undefined,jobField:string,area:string){
     debugger;
-    this.filteredJobs= (area!=""&&area!=undefined)? this.jobs?.filter(j=>area==j.area):this.jobs;
+    this.filteredJobs= (area!=""&&area!=undefined)? jobs?.filter(j=>area==j.area):jobs;
     return jobField!=""?this.filteredJobs?.filter(j=>j.jobField==+jobField):this.filteredJobs;
   }
 }

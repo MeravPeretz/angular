@@ -9,6 +9,7 @@
         <input type="text" name="password" required ngModel >
     </div>
     <span class="error" *ngIf="f.submitted && f.controls['password']?.invalid">password is required</span>
+    <span class="error" *ngIf="f.submitted && f.controls['password']?.value.toString().length < 8"> password have to be 8 digits minimum</span>
     <button type="submit">submit</button>
 </form>
 <!-- <pre>{{f.value | json}}</pre> -->

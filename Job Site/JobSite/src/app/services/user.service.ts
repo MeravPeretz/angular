@@ -16,6 +16,7 @@ export class UserService {
         this.user = res;
         resolve(this.user);
         localStorage.setItem("user",JSON.stringify(this.user));
+        localStorage.setItem("cv",JSON.stringify([]));
       });
     });
   }

@@ -1,11 +1,11 @@
 
  <div class="job" *ngIf="job">
     <h3>{{job.name}}</h3>
-    <h4>{{getField()}}</h4>
+    <h4>{{job.jobField|jobField}}</h4>
     <h4>{{job.hours}} שעות</h4>
     <h4>{{job.area}}</h4>
     <button (click)="ShowJobDetails()">לפרטים נוספים</button>
-    <button>שלח קו"ח</button>
+    <button (click)="sendcv()">שלח קו"ח</button>
  </div>
  <!-- <pre>{{job | json}}</pre> -->
 

@@ -103,3 +103,4 @@ C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApp
 C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.pdb
 C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\JobSiteServer.genruntimeconfig.cache
 C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\obj\Debug\net6.0\ref\JobSiteServer.dll
+C:\Users\USER\Desktop\לימודים יד\angular\angular\Job Site\Server\WebApplication1\bin\Debug\net6.0\Data\Cv.json

@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Job } from '../../models/job';
 import { JobField } from '../../models/jobField';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -13,10 +13,11 @@ export class JobComponent {
 ShowJobDetails() {
   this.router.navigate(['job/'+this.job?.id]);
 }
-getField() {
-  if(this.job!=undefined)
-    return JobField[this.job.jobField];
-  return " ";
+
+@Output('sendCV') sendCV: EventEmitter<any> = new EventEmitter<any>()
+
+sendcv(){
+  this.sendCV.emit({name:this.job?.name});
 }
   @Input() job:Job | undefined;
 }

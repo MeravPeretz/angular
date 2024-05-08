@@ -18,11 +18,7 @@ export class JobDetailsComponent {
       this.loadJob();
     })
   }
-  getField() {
-    if(this.job!=undefined)
-      return JobField[this.job.jobField];
-    return " ";
-  }
+
   async loadJob(){
     debugger;
     await this.JobsSVC.getJobs();

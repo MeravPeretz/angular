@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { JobsFilterComponent } from './components/jobs-filter/jobs-filter.component';
 import { JobDetailsComponent } from './components/job-details/job-details.component';
+import { JobFieldPipe } from './pipes/job-field.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { JobDetailsComponent } from './components/job-details/job-details.compon
     JobComponent,
     WrongPathComponent,
     JobsFilterComponent,
-    JobDetailsComponent
+    JobDetailsComponent,
+    JobFieldPipe
   ],
   imports: [
     FormsModule,
